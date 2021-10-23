@@ -20,7 +20,7 @@ class EmployeeController extends Controller
         ->rawColumns(['dp','name','email','designation','action'])
         ->editColumn('dp', function ($employee) {
             $html = '';
-            $data = !empty($employee->image && file_exists('uploads/'.$employee->image)) ? '<img style="width: 40px; height: 40px" src="'.asset('uploads/'.$employee->image).'"': '<img style="width: 40px; height: 40px" src="'.asset('storage/img/man.jpg').'" />';
+            $data = !empty($employee->image && file_exists('uploads/'.$employee->image)) ? '<img style="width: 40px; height: 40px" src="'.asset('uploads/'.$employee->image).'"': '<img style="width: 40px; height: 40px" src="'.asset('man.jpg').'" />';
 
             $html = '<div class="img_wrap contact_list"><div class="dp_name">'.$data.'</div></div>';
             return $html;
