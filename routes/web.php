@@ -18,6 +18,4 @@ Route::get('/', function () {
 });
 Route::resource('employee', 'App\Http\Controllers\EmployeeController');
 Route::any('employee/dt', 'App\Http\Controllers\EmployeeController@datatable')->name('employee.datatable');
-Route::get('/home', function() {
-    return view('home');
-})->name('home');
+
