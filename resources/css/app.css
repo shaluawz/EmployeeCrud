@@ -1,0 +1,26 @@
+.img_wrap .dp {
+    background: #ebc4e0;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.img_wrap .dp_name {
+    background: #ebc4e0;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    width: 82px;
+    height: 82px;
+    padding-top: 14px;
+}
+
+.contact_list.img_wrap {
+    width: 40px !important;
+    height: 40px !important;
+    margin: 0 auto !important;
+    float: right;
+    overflow: hidden;
+}
